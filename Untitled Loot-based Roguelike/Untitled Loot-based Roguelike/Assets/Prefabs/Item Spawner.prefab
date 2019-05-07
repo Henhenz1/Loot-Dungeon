@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2373809239028718823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2373809239028718820}
+  - component: {fileID: 2373809239028718821}
+  m_Layer: 0
+  m_Name: Item Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2373809239028718820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373809239028718823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2373809239028718821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2373809239028718823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d5924a6b59e7940abc48bed4aed9be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newItem: {fileID: 7309408042804501187, guid: 0b37e0c912747224f937e675e4abc3c5, type: 3}
+  blades:
+  - {fileID: 21300000, guid: 8fab3a94a7394e9458f3206d6186f92b, type: 3}
+  - {fileID: 21300000, guid: 8ef18effd4a7fe540bd2ab4d6d191b38, type: 3}
+  - {fileID: 21300000, guid: 97ca8005ad016fa419060bd3a8249477, type: 3}
+  - {fileID: 21300000, guid: 60b8e4334915d9745b2df3bedd9b7dfa, type: 3}
+  guards:
+  - {fileID: 21300000, guid: 8a12546c3c9f21e4aba0ec7859afe82f, type: 3}
+  - {fileID: 21300000, guid: 4510c2ffdb50fba4f85470ac7d9ca1df, type: 3}
+  - {fileID: 21300000, guid: 0463786c37435b346add90efcf386518, type: 3}
+  - {fileID: 21300000, guid: 2719c696609375349a5fc6ccc90fd25e, type: 3}
+  hilts:
+  - {fileID: 21300000, guid: 2c7cd66cafb656545ae802590174fb0d, type: 3}
+  - {fileID: 21300000, guid: e9d21d6d21d9322488776f5c322f3f71, type: 3}
+  - {fileID: 21300000, guid: cf705eb9de5919841b1db5a1a16c02ab, type: 3}
+  - {fileID: 21300000, guid: 7e4d8fe594299f744a12e3daa226dea7, type: 3}
+  bladeVals:
+  - 0
+  - 5
+  - 20
+  - -1
+  guardVals:
+  - 0
+  - 0
+  - 0
+  - 0
+  hiltVals:
+  - 1
+  - 1.2
+  - 2
+  - 0.5
